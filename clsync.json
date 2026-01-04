@@ -1,0 +1,45 @@
+{
+  "$schema": "https://clsync.dev/schema/v1.json",
+  "version": "1.0.0",
+  "description": "Claude Code settings repository",
+  "author": "workromancer",
+  "updated_at": "2026-01-04T11:30:28.974Z",
+  "items": [
+    {
+      "type": "skill",
+      "name": "project-overview-html",
+      "path": "skills/project-overview-html",
+      "description": "Creates interactive HTML visualizations of project structure, dependencies, and statistics. Use when the user asks to visualize the project, create a project overview, or generate an HTML dashboard of the codebase."
+    },
+    {
+      "type": "skill",
+      "name": "update-project-docs",
+      "path": "skills/update-project-docs",
+      "description": "Automated project documentation updater that synchronizes and maintains current documentation across the project"
+    },
+    {
+      "type": "skill",
+      "name": "web-load2",
+      "path": "skills/web-load2",
+      "description": "Loads and extracts all content from web URLs. Use when the user asks to fetch, load, or retrieve content from a website or URL."
+    },
+    {
+      "type": "agent",
+      "name": "api-documenter",
+      "path": "agents/api-documenter.md",
+      "description": "Expert API documenter specializing in creating comprehensive, developer-friendly API documentation. Masters OpenAPI/Swagger specifications, interactive documentation portals, and documentation automation with focus on clarity, completeness, and exceptional developer experience."
+    },
+    {
+      "type": "agent",
+      "name": "architect-reviewer",
+      "path": "agents/architect-reviewer.md",
+      "description": "Expert architecture reviewer specializing in system design validation, architectural patterns, and technical decision assessment. Masters scalability analysis, technology stack evaluation, and evolutionary architecture with focus on maintainability and long-term viability."
+    }
+  ],
+  "stats": {
+    "skills": 3,
+    "agents": 2,
+    "output_styles": 0,
+    "total": 5
+  }
+}
